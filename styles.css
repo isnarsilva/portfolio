@@ -11,7 +11,7 @@ body {
     padding: 1rem 0 3rem 0;
     font-size: 16px;
     font-weight: 500;
-    margin: 0 6rem;
+    padding: 0 6rem;
 }
 
 .cabecalho_menu {
@@ -37,8 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
-    margin: 0 6rem;
+    padding: 2rem 6rem;
 }
 
 .main_home_texto {
@@ -381,3 +380,330 @@ body {
     font-weight: 500;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+    }
+
+    body {
+        margin: 1.25rem 0;
+    }
+
+    .cabecalho {
+        padding: 2rem;
+        
+    }
+
+    .cabecalho_menu_oculta {
+        display: none;
+    }
+
+    .main_home {
+        padding: 2rem;
+    }
+
+    .main_home_texto {
+        gap: 0.5rem;
+    }
+
+    .main_home_texto_titulo {
+        font-size: 22px;
+    }
+
+    .main_home_texto_subtitulo {
+        font-size: 16px;
+    }
+
+    .main_home_texto_imagem_redonda {
+        width: 146px;
+        height: 146px;
+    }
+
+    .main_sobre {
+        padding: 2rem;
+    }
+
+    .main_skill {
+        padding: 2rem;
+    }
+
+    .main_skill_titulo {
+        font-size: 22px;
+    }
+
+    .main_skill_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;
+    }
+
+    .main_skill_container_quadro {
+        width: 195px;
+        height: 118px;
+    }
+
+    .main_skill_container_quadro_ocultar {
+        display: none;
+    }
+
+    .main_hobbies {
+        padding: 2rem;
+    }
+
+    .main_hobbies_titulo {
+        font-size: 22px;
+    }
+
+    .main_hobbies_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;
+    }
+
+    .main_hobbies_container_quadro {
+        width: 195px;
+        height: 118px;
+    }
+
+    .main_hobbies_container_quadro_ocultar {
+        display: none;
+    }
+
+    .main_formacao {
+        padding: 2rem;
+    }
+
+    .main_formacao_titulo {
+        font-size: 22px;
+    }
+
+    .main_formacao_container_quadro {
+        width: 195px;
+        height: 118px;
+    }
+
+    .main_formacao_container_quadro_imagem {
+        width: 84px;
+        height: 58px;
+    }
+
+    .main_formacao_container_titulo {
+        font-size: 16px;
+    }
+
+    .main_formacao_container_subtitulo {
+        font-size: 14px;
+    }
+
+    .main_experiencia {
+        padding: 2rem;
+    }
+
+    .main_experiencia_titulo {
+        font-size: 22px;
+    }
+
+    .main_experiencia_container {
+        flex-direction: column;
+    }
+
+    .main_experiencia_container_info_titulo {
+        font-size: 16px;
+    }
+
+    .main_experiencia_container_info_subtitulo {
+        font-size: 14px;
+    }
+
+    .main_experiencia_container_info_botao_repositorio {
+        padding: 0.75rem 1rem;
+        font-size: 14px;
+    }
+
+    .main_experiencia_container_info_botao_demo {
+        padding: 0.75rem 1rem;
+        font-size: 14px;
+    }
+
+    .main_contato {
+        padding: 2rem;
+    }
+
+    .main_contato_imagem {
+        display: none;
+    }
+    
+    .main_contato_container {
+        padding-left: 0;
+    }
+
+    .main_contato_container_titulo {
+        font-size: 22px;
+    }
+
+    #formulario input {
+        width: 120%;
+        height: 56px;
+    }
+
+    #formulario textarea {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 1rem 0;
+    }
+
+    .cabecalho {
+        padding: 1rem;
+    }
+
+    .cabecalho_menu_email {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .main_home {
+        padding: 1rem;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .main_home_texto_imagem_redonda {
+        width: 98px;
+        height: 98px;
+    }
+
+    .main_home_texto {
+        gap: 1rem;
+    }
+
+    .main_home_texto_titulo {
+        font-size: 18px;
+    }
+
+    .main_home_texto_subtitulo {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .main_home_texto_redes {
+        font-size: 14px;
+        font-weight: 600;
+        gap: 8px;
+    }
+
+    .main_sobre {
+        padding: 1rem;
+    }
+
+    .main_sobre_titulo {
+        font-size: 22px;
+    }
+
+    .main_sobre_texto {
+        font-size: 14px;
+    }
+
+    .main_skill {
+        padding: 1rem;
+    }
+
+    .main_skill_titulo {
+        font-size: 22px;
+    }
+
+    .main_skill_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 2rem 1rem;
+    }
+
+    .main_skill_container_quadro {
+        width: 130px;
+        height: 110px;
+    }
+
+    .main_hobbies {
+        padding: 1rem;
+    }
+
+    .main_hobbies_titulo {
+        font-size: 22px;
+    }
+
+    .main_hobbies_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 2rem 1rem;
+    }
+
+    .main_hobbies_container_quadro {
+        width: 130px;
+        height: 110px;
+    }
+
+    .main_formacao {
+        padding: 2rem;
+    }
+
+    .main_formacao_titulo {
+        font-size: 22px;
+    }
+
+    .main_formacao_container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .main_formacao_container_quadro {
+        width: 276px;
+        height: 118px;
+    }
+
+    .main_experiencia {
+        padding: 1rem;
+    }
+
+    .main_experiencia_titulo {
+        font-size: 22px;
+    }
+
+    .main_contato {
+        padding: 1rem;
+    }
+
+    .main_contato_container_titulo {
+        font-size: 22px;
+    }
+
+    .main_experiencia_container_info_subtitulo {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    #formulario input {
+        width: 95%;
+        height: 50px;
+    }
+
+    #formulario textarea {
+        width: 95%;
+    }
+
+    #formulario button {
+        font-size: 14px;
+        font-weight: 600;
+        width: 45%;
+        padding: 0.75rem 1rem;
+    }
+
+} 
